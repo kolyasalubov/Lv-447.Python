@@ -11,10 +11,12 @@ Task 02.
 
 def lagrange(digit):
     """Lagrange's four-square theorem"""
+    result = []
     for _ in range(4):
         _ = int(digit ** 0.5)
         digit = digit - _ ** 2
-        print(_)
+        result.append(_)
+    return result
 
 
 def main():
@@ -22,6 +24,6 @@ def main():
     print(__doc__)
     try:
         user_input = int(input("Enter your digit: "))
-        lagrange(user_input)
+        print(lagrange(user_input))
     except ValueError:
         print("Wrong input!")
