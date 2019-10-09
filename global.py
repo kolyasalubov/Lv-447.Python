@@ -3,9 +3,7 @@
 
 __author__ = 'Stanislav Hrytcyshyn'
 
-'''
-Execute module
-'''
+
 
 import task178
 import task554
