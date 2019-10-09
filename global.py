@@ -23,6 +23,7 @@ def main():
         elif user_choice.lower() in ['q', 'quit', 'exit', 'stop', 'terminate']:
             break
         else:
+            
             print('Please choose task from (178 / 554)')
             continue
 
